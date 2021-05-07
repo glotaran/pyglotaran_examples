@@ -18,7 +18,7 @@ def setup_case_study(
 
 
 def simple_plot_overview(res, title=None):
-    """ simple plotting function derived from code from pyglotaran_extras """
+    """simple plotting function derived from code from pyglotaran_extras"""
     fig, ax = plt.subplots(2, 3, figsize=(12, 6), constrained_layout=True)
     if title:
         fig.suptitle(title, fontsize=16)
